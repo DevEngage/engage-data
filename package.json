@@ -13,6 +13,17 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watch"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "axios": "0.18.0",
+    "firebase": "5.5.7",
+    "firebase-tools": "3.18.4",
+    "lodash": "4.17.5"
+  },
+  "devDependencies": {
+    "@stencil/core": "0.15.2",
+    "prettier": "1.15.2",
+    "rollup-plugin-node-builtins": "2.1.2",
+    "rollup-plugin-node-globals": "1.4.0",
+    "husky": "1.2.1"
+  }
 }
